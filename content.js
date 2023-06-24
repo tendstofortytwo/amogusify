@@ -1,7 +1,7 @@
 function genAmogus() {
 	const img = document.createElement('img');
 	img.crossOrigin = 'Anonymous';
-	img.setAttribute('style', 'height: 1em; display: inline-block');
+	img.setAttribute('style', 'height: 1em !important; width: auto !important; display: inline-block !important');
 	img.setAttribute('alt', 'among');
 	img.src = browser.runtime.getURL('amogus.png');
 	return img;
